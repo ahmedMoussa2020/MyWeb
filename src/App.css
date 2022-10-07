@@ -3,13 +3,13 @@
 
 /* css variables */
 :root {
-  --primary-color: #379cf6;
+  --primary-color: #800080;
   --heading-color: #fff;
   --btn-primary-bg: #379cf6;
   --btn-secondary-bg: #090238;
   --team-card-bg: #1b2352;
   --link-color: #fff;
-  --link-active: #379cf6;
+  --link-active: #800080;
   --card-bg: linear-gradient(45deg,
       rgba(15, 18, 61, 1) 33%,
       rgba(15, 18, 61, 1) 52%,

@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 
-.menu__link:hover{
+.menu__link, :hover{
   color: var(--link-active);
 }
 

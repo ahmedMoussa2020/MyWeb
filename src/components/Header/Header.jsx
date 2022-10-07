@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+
 const nav__links = [
   {
     path: "#home",
@@ -26,6 +27,7 @@ const nav__links = [
     display: "Blog",
   },
 ];
+
 const Header = () => {
   return (
     <header className="header">
