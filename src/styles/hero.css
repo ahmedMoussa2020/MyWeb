@@ -1,36 +1,43 @@
 .hero__wrapper{
   display: flex;  
   justify-content: space-between;
+  
 }
 
 .hero__content,
 .hero__img {
   width: 50%;
+  
 }
 
-.hero__content{
+.hero__content {
   padding-top: 40px;
+  
 }
 
 .hero__content h2{
   font-size: 3rem;
   line-height: 65px;
+  
 }
 
 .hero__content p {
   margin-top: 40px;
   font-size: 1.1rem;
+  
 }
 
 .highlight{
   color: var(--primary-color);
+  
 }
 
-.hero_btns{
+.hero__btns{
   margin-top: 40px;
   display: flex;
   align-items: center;
   column-gap: 2rem;
+  
 }
 
 .primary__btn,
@@ -39,15 +46,18 @@
   border: none;
   outline: none;
   color: #fff;
-  border-radius: 0.2rem;
+  border-radius: 5.2rem;
   cursor: pointer;
+  
 }
 
 .primary__btn{
   background: var(--btn-secondary-bg);
   border: 1px sold var(--btn-primary-bg);
+  
 }
 
 .secondary__btn{
   background: var(--btn-primary-bg);
+  
 }

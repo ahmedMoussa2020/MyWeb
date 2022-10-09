@@ -5,12 +5,12 @@ import "../../styles/hero.css";
 
 const Hero = () => {
   return (
-    <section className="hero__section">
+    <section className="counter">
       <div className="container">
         <div className="hero__wrapper">
           <div className="hero__content">
             <div>
-              <h2>we're Creating Perfecct</h2>
+              <h2>We're Creating Perfect</h2>
               <h2>Digital Product To</h2>
               <h2 className="highlight">Promote Your Brand</h2>
             </div>
