@@ -21,10 +21,13 @@
   font-weight: 400;
   font-size: .9rem;
   cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+
 }
 
-.menu__link, :hover{
+.menu__link:hover{
   color: var(--link-active);
+  
 }
 
 .logo h2 {
