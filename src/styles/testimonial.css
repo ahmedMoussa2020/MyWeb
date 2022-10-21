@@ -13,8 +13,9 @@
 .slider__item{
   background: var(--testimonial-bg);
   padding: 40px 30px;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   text-align: center;
+  cursor: pointer;
 }
 
 /* .slider__item p{
@@ -27,12 +28,13 @@
   justify-content: center;
   column-gap: 1rem;
   margin-top: 40px;
-  cursor: pointer;
+  
 }
 
 .customer__img{
   width: 50px;
   height: 50px;
+  /* border-radius: 50%; */
 }
 
 .customer__img img{
