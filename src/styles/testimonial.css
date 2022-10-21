@@ -8,6 +8,7 @@
 .slider__wrapper{
   width: 70%;
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .slider__item{
