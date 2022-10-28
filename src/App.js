@@ -8,6 +8,7 @@ import About from "./components/UI/About";
 import Team from "./components/UI/Team";
 import Testimonial from "./components/UI/Testimonial";
 import Newsletter from "./components/UI/NewsLetter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Team />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </>
   );
 }
