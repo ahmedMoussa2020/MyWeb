@@ -5,7 +5,7 @@ import "../../styles/hero.css";
 
 const Hero = () => {
   return (
-    <section className="counter">
+    <section className="counter" id="home">
       <div className="container">
         <div className="hero__wrapper">
           <div className="hero__content">
