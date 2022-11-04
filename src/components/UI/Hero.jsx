@@ -1,7 +1,9 @@
 import React from "react";
 import "../../styles/hero.css";
 
-// import heroDarkImg from  "./images/hero-img.png";
+// import heroDarkImg from  "./images/banner1.jpg";
+import banner1 from "../../images/cntower.jpg";
+
 
 const Hero = () => {
   return (
@@ -27,8 +29,10 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="hero__img">
-            <img src="/images/hero-img.png" alt='hero-img'/>
+          <div className="hero__img1">
+            {/* <img src="/images/hero-img.png" alt='hero-img'/> */}
+          <img className="hero__img" src={banner1} alt="logo photo" width={450} height={550} />
+
           </div>
         </div>
       </div>

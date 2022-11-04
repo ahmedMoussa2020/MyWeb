@@ -4,8 +4,7 @@
   
 }
 
-.hero__content,
-.hero__img {
+.hero__content{
   width: 50%;
   
 }
@@ -57,6 +56,12 @@
   
 }
 
+.hero__img{
+  position: relative;
+  text-align: center;
+  border-radius: 5em;
+}
+
 .secondary__btn{
   background: var(--btn-primary-bg);
   
@@ -80,16 +85,14 @@
     font-size: 0.9rem;
   }
 
-  .hero__content,
-  .hero__img{
+  .hero__content{
     width: 100%;
   }
 }
 
 
 @media  only screen and (max-width: 600px){
-  .hero__content,
-  .hero__img{
+  .hero__content{
     width: 100%;
   }
 

@@ -9,12 +9,12 @@ const serviceData = [
   },
   {
     icon: "ri-code-s-slash-line",
-    title: "We Design",
+    title: "Design",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora qui? Voluptatum velit placeat consequuntur minus ex assumenda ea quod?",
   },
   {
     icon: "ri-landscape-line",
-    title: "GraphicsDesign",
+    title: "Graphics Design",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, tempora qui? Voluptatum velit placeat consequuntur minus ex assumenda ea quod?",
   },
   {

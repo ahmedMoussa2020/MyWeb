@@ -1,6 +1,11 @@
 import React, { useRef, useEffect } from "react";
 // import React from "react";
 import "./header.css";
+// import Image from "next/image";
+import logo from "../../images/logo2.png";
+
+
+
 
 const nav__links = [
   {
@@ -71,7 +76,12 @@ const Header = ({ theme, toggleTheme }) => {
       <div className="container">
         <div className="nav__wrapper">
           <div className="logo">
-            <h2>CodeBakers</h2>
+          {/* <Image src="../../images/about.png" width={32} height={32} alt="Picture of the logo" /> */}
+          <img src={logo} alt="logo photo" width={200} height={60} />
+
+          
+            {/* <h2>CodeBakers</h2> */}
+            
             {/* <p>Grow with us</p> */}
           </div>
 
@@ -96,7 +106,9 @@ const Header = ({ theme, toggleTheme }) => {
           {/* ============= light mode ================ */}
           <div className="light__mode">
             <span>
-              <i class="ri-sun-line"></i>Light Mode
+            <i class="ri-instagram-line"></i>
+            <i class="ri-facebook-line"></i>
+            <i class="ri-linkedin-line"></i>
             </span>
           </div>
 
