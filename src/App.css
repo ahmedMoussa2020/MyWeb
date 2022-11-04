@@ -38,8 +38,7 @@
   --counter-color: #fff;
   --counter-section-bg: #816aff;
   --link-color: #0c123d;
-  --link-active: #816aff 
-  --newsletter-bg: linear-gradient(180deg,
+  --link-active: #816aff --newsletter-bg: linear-gradient(180deg,
       rgba(189, 243, 255, 1) 29%,
       rgba(193, 243, 255, 1) 50%,
       rgba(226, 250, 255, 1) 78%);
@@ -72,24 +71,37 @@ h2 {
   font-size: 2rem;
 }
 
-.section{
+.section {
   padding: 60px 0px;
 }
+
 .container {
   width: 1140px;
   padding: 0px 15px;
   margin: auto;
 }
 
-.description{
+.description {
   color: var(--small-text-color);
   line-height: 30px;
   font-size: .9rem;
 }
 
-.subtitle{
+.subtitle {
   font-size: 1rem;
   color: var(--primary-color);
   font-weight: 400;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 40px 0px;
+  }
+} 
